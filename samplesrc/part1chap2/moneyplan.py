@@ -1,0 +1,5 @@
+print("貯金の計画を立てましょう。")
+goal = int(input("何円貯金してみたいですか？"))
+year = int(input("何年後までに貯金したいですか？"))
+money = int(goal / (year * 365))
+print("1日に、約", money,"円貯金しましょう。")
